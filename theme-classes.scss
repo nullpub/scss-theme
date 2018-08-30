@@ -1,0 +1,97 @@
+// Theme classes
+.thm-base-color {
+  color: $thm-base-color; // Fallback Color
+  color: var(--thm-base-color);
+}
+.thm-base-contrast {
+  background-color: $thm-base-contrast; // Fallback Color
+  background-color: var(--thm-base-contrast);
+}
+.thm-base {
+  @extend .thm-base-color;
+  @extend .thm-base-contrast;
+}
+.thm-light-color {
+  color: $thm-light-color; // Fallback Color
+  color: var(--thm-light-color);
+}
+.thm-light-contrast {
+  background-color: $thm-light-contrast; // Fallback Color
+  background-color: var(--thm-light-contrast);
+}
+.thm-light {
+  @extend .thm-light-color;
+  @extend .thm-light-contrast;
+}
+.thm-primary-color {
+  color: $thm-primary-color; // Fallback Color
+  color: var(--thm-primary-color);
+}
+.thm-primary-contrast {
+  background-color: $thm-primary-contrast; // Fallback Color
+  background-color: var(--thm-primary-contrast);
+}
+.thm-primary {
+  @extend .thm-primary-color;
+  @extend .thm-primary-contrast;
+}
+.thm-secondary-color {
+  color: $thm-secondary-color; // Fallback Color
+  color: var(--thm-secondary-color);
+}
+.thm-secondary-contrast {
+  background-color: $thm-secondary-contrast; // Fallback Color
+  background-color: var(--thm-secondary-contrast);
+}
+.thm-secondary {
+  @extend .thm-secondary-color;
+  @extend .thm-secondary-contrast;
+}
+.thm-accent-color {
+  color: $thm-accent-color; // Fallback Color
+  color: var(--thm-accent-color);
+}
+.thm-accent-contrast {
+  background-color: $thm-accent-contrast; // Fallback Color
+  background-color: var(--thm-accent-contrast);
+}
+.thm-accent {
+  @extend .thm-accent-color;
+  @extend .thm-accent-contrast;
+}
+.thm-info-color {
+  color: $thm-info-color; // Fallback Color
+  color: var(--thm-info-color);
+}
+.thm-info-contrast {
+  background-color: $thm-info-contrast; // Fallback Color
+  background-color: var(--thm-info-contrast);
+}
+.thm-info {
+  @extend .thm-info-color;
+  @extend .thm-info-contrast;
+}
+.thm-warning-color {
+  color: $thm-warning-color; // Fallback Color
+  color: var(--thm-warning-color);
+}
+.thm-warning-contrast {
+  background-color: $thm-warning-contrast; // Fallback Color
+  background-color: var(--thm-warning-contrast);
+}
+.thm-warning {
+  @extend .thm-warning-color;
+  @extend .thm-warning-contrast;
+}
+.thm-error-color {
+  color: $thm-error-color; // Fallback Color
+  color: var(--thm-error-color);
+}
+.thm-error-contrast {
+  background-color: $thm-error-contrast; // Fallback Color
+  background-color: var(--thm-error-contrast);
+}
+.thm-error {
+  @extend .thm-error-color;
+  @extend .thm-error-contrast;
+}

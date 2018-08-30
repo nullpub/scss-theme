@@ -1,0 +1,41 @@
+/**
+ * Sass Default Theme Variables
+ * * Used to generate scss files and css vars
+ * * Use css vars where possible
+ */
+$thm-base-color: #111111 !default;
+$thm-base-contrast: #f4f4f4 !default;
+$thm-light-color: #a463f2 !default;
+$thm-light-contrast: #f4f4f4 !default;
+$thm-primary-color: #eeeeee !default;
+$thm-primary-contrast: #5e2ca5 !default;
+$thm-secondary-color: #eeeeee !default;
+$thm-secondary-contrast: #a463f2 !default;
+$thm-accent-color: #555555 !default;
+$thm-accent-contrast: #ffb700 !default;
+$thm-info-color: #f4f4f4 !default;
+$thm-info-contrast: #357edd !default;
+$thm-warning-color: #ff4136 !default;
+$thm-warning-contrast: #ffd700 !default;
+$thm-error-color: #ff4136 !default;
+$thm-error-contrast: #ffdfdf !default;
+
+// CSS Variables
+:root {
+  --thm-base-color: #{$thm-base-color};
+  --thm-base-contrast: #{$thm-base-contrast};
+  --thm-light-color: #{$thm-light-color};
+  --thm-light-contrast: #{$thm-light-contrast};
+  --thm-primary-color: #{$thm-primary-color};
+  --thm-primary-contrast: #{$thm-primary-contrast};
+  --thm-secondary-color: #{$thm-secondary-color};
+  --thm-secondary-contrast: #{$thm-secondary-contrast};
+  --thm-accent-color: #{$thm-accent-color};
+  --thm-accent-contrast: #{$thm-accent-contrast};
+  --thm-info-color: #{$thm-info-color};
+  --thm-info-contrast: #{$thm-info-contrast};
+  --thm-warning-color: #{$thm-warning-color};
+  --thm-warning-contrast: #{$thm-warning-contrast};
+  --thm-error-color: #{$thm-error-color};
+  --thm-error-contrast: #{$thm-error-contrast};
+}

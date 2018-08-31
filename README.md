@@ -2,6 +2,18 @@
 
 Some simple scss files that help with setting application wide themes.
 
+## How To Use
+
+This package requires that your build process renders sass. To use:
+
+`npm i -D @nll/scss-theme`
+
+Then import into your root sass style:
+
+```scss
+@import '~@nll/scss-theme/theme';
+```
+
 ### Theme Variables (theme-vars.scss)
 
 Takes a set of sass variables and creates css variables at :root. Can be customized by setting the following:

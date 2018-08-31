@@ -1,0 +1,22 @@
+@function ends-with($string, $find) {
+  @return str-slice($string, (str-length($string) - str-length($find) + 1)) ==
+    $find;
+}
+
+@each $name, $color in $thm-colors {
+  @if (ends-with($name, '-color')) {
+    .#{$name} {
+      color: $color;
+    }
+  } @else {
+    .#{$name} {
+      background-color: $color;
+    }
+
+    $base-name: str-slice($name, 0, -10);
+    .#{$base-name} {
+      @extend #{'.' + $base-name + '-color'};
+      @extend #{'.' + $name};
+    }
+  }
+}

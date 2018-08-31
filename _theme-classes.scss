@@ -7,10 +7,12 @@
   @if (ends-with($name, '-color')) {
     .#{$name} {
       color: $color;
+      color: var(--#{$name});
     }
   } @else {
     .#{$name} {
       background-color: $color;
+      background-color: var(--#{$name});
     }
 
     $base-name: str-slice($name, 0, -10);

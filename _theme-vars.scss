@@ -3,6 +3,6 @@
 :root {
   // Make a variable for each theme color
   @each $name, $color in $thm-colors {
-    --thm-#{$name}: #{$color};
+    --#{$name}: #{$color};
   }
 }

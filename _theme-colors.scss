@@ -4,6 +4,8 @@ $thm-light-color: #111111 !default;
 $thm-light-contrast: #f4f4f4 !default;
 $thm-dark-color: #f4f4f4 !default;
 $thm-dark-contrast: #111111 !default;
+$thm-link-color: #357edd !default;
+$thm-link-contrast: #ffffff !default;
 $thm-primary-color: #eeeeee !default;
 $thm-primary-contrast: #5e2ca5 !default;
 $thm-secondary-color: #eeeeee !default;
@@ -24,6 +26,8 @@ $thm-colors: (
   thm-light-contrast: $thm-light-contrast,
   thm-dark-color: $thm-dark-color,
   thm-dark-contrast: $thm-dark-contrast,
+  thm-link-color: $thm-link-color,
+  thm-link-contrast: $thm-link-contrast,
   thm-primary-color: $thm-primary-color,
   thm-primary-contrast: $thm-primary-contrast,
   thm-secondary-color: $thm-secondary-color,
